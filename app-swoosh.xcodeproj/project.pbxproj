@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC0CDB622018E8BC0096DE05 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0CDB612018E8BC0096DE05 /* LeagueVC.swift */; };
 		CC0CDB642018E8CC0096DE05 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0CDB632018E8CC0096DE05 /* SkillVC.swift */; };
+		CC0CDB66201914890096DE05 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0CDB65201914890096DE05 /* Player.swift */; };
 		CCA6E2E62017BBE600DE6C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6E2E52017BBE600DE6C75 /* AppDelegate.swift */; };
 		CCA6E2E82017BBE600DE6C75 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6E2E72017BBE600DE6C75 /* WelcomeVC.swift */; };
 		CCA6E2EB2017BBE600DE6C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA6E2E92017BBE600DE6C75 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		CC0CDB612018E8BC0096DE05 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		CC0CDB632018E8CC0096DE05 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		CC0CDB65201914890096DE05 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CCA6E2E22017BBE600DE6C75 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA6E2E52017BBE600DE6C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCA6E2E72017BBE600DE6C75 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		CCA6E2FB2018E44B00DE6C75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC0CDB65201914890096DE05 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				CC0CDB622018E8BC0096DE05 /* LeagueVC.swift in Sources */,
 				CCA6E2E62017BBE600DE6C75 /* AppDelegate.swift in Sources */,
 				CC0CDB642018E8CC0096DE05 /* SkillVC.swift in Sources */,
+				CC0CDB66201914890096DE05 /* Player.swift in Sources */,
 				CCA6E2F92017C08000DE6C75 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
